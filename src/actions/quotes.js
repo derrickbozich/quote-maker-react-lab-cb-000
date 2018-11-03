@@ -4,3 +4,10 @@ export function addQuote(quote){
     quote: quote
   }
 }
+
+export function removeQuote(quote){
+  return {
+    type: 'REMOVE_QUOTE',
+    quote: quote
+  }
+}
