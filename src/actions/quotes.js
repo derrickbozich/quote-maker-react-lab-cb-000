@@ -8,6 +8,6 @@ export function addQuote(quote){
 export function removeQuote(quote){
   return {
     type: 'REMOVE_QUOTE',
-    quote: quote
+    quoteId: quote
   }
 }
