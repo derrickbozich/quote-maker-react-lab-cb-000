@@ -11,3 +11,10 @@ export function removeQuote(quote){
     quoteId: quote
   }
 }
+
+export function upvoteQuote(quoteId){
+  return {
+    type: 'REMOVE_QUOTE',
+    quoteId: quoteId
+  }
+}
