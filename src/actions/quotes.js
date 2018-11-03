@@ -21,7 +21,7 @@ export function upvoteQuote(quoteId){
 
 export function downvoteQuote(quoteId){
   return {
-    type: 'UPVOTE_QUOTE',
+    type: 'DOWNVOTE_QUOTE',
     quoteId: quoteId
   }
 }
