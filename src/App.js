@@ -12,6 +12,7 @@ class App extends Component {
         <hr />
         {/*Render QuoteForm and Quotes Components*/
           <QuoteForm />
+          <Quotes />
         }
       </div>
     );
